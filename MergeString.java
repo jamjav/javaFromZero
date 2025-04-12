@@ -15,12 +15,13 @@ class MergeString {
             }
         }
 
-        return merge.toString();  
+        return merge.toString();
     }
 
     public static void main(String[] args) {
         MergeString sol = new MergeString();
-        System.out.println(sol.mergeAlternately("abc", "pqr"));  // Salida esperada: "apbqcr"
-        System.out.println(sol.mergeAlternately("ab", "pqrs"));  // Salida esperada: "apbqrs"
+        System.out.println(sol.mergeAlternately("abc", "pqr")); // Salida esperada: "apbqcr"
+        System.out.println(sol.mergeAlternately("ab", "pqrs")); // Salida esperada: "apbqrs"
     }
-}
+
+}java
